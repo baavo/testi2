@@ -1,0 +1,95 @@
+body {
+    background-color: aqua;
+}
+
+/*nav alkaa*/
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: center;
+}
+nav li {
+    margin-bottom: 5px; 
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+/*nav päättyy*/
+
+#eka h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blue
+    
+}
+
+#eka img {
+    width: 200px; 
+    height: auto;
+}
+
+#eka {
+    text-align: center;
+}
+
+
+
+
+#toka h1 {
+    font-family: sans-serif;
+
+    color:rgb(207, 27, 27)
+}
+
+#toka img {
+    width: 400px;
+    height: auto;
+}
+
+#toka {
+    text-align: center;
+}
+
+
+
+#kol h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color:darkgreen
+}
+
+#kol img {
+    width: 500px;
+    height: auto;
+}
+
+#kol {
+    text-align: center;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
